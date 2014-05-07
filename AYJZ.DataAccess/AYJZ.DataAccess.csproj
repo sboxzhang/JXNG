@@ -50,30 +50,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="base\ayjz_ayzhxxDao.cs" />
-    <Compile Include="base\ayjz_ddjsDao.cs" />
-    <Compile Include="base\ayjz_ddxxDao.cs" />
-    <Compile Include="base\ayjz_ddxx_spDao.cs" />
-    <Compile Include="base\ayjz_d_fwsjDao.cs" />
-    <Compile Include="base\ayjz_d_khfwdzDao.cs" />
-    <Compile Include="base\ayjz_d_lxdhDao.cs" />
-    <Compile Include="base\ayjz_d_lxsjDao.cs" />
-    <Compile Include="base\ayjz_d_yhzhDao.cs" />
-    <Compile Include="base\ayjz_employeeinfoDao.cs" />
-    <Compile Include="base\ayjz_htjsDao.cs" />
-    <Compile Include="base\ayjz_htjsmxDao.cs" />
-    <Compile Include="base\ayjz_htxxDao.cs" />
-    <Compile Include="base\ayjz_htxx_spDao.cs" />
-    <Compile Include="base\ayjz_spxxDao.cs" />
-    <Compile Include="base\ayjz_xrzcDao.cs" />
-    <Compile Include="base\ayjz_xxtsDao.cs" />
-    <Compile Include="base\CacheFactory.cs" />
-    <Compile Include="base\DataBaseEnum.cs" />
-    <Compile Include="base\DataCache.cs" />
-    <Compile Include="base\FastInvoke.cs" />
-    <Compile Include="base\IDataAccess.cs" />
-    <Compile Include="base\MyConvert.cs" />
-    <Compile Include="base\TranAction.cs" />
     <Compile Include="BuAddress.cs" />
     <Compile Include="BuBigStationInfo.cs" />
     <Compile Include="BuCarInfo.cs" />
@@ -95,12 +71,16 @@
     <Compile Include="BuWFRelationship.cs" />
     <Compile Include="BuWFRelationshipLog.cs" />
     <Compile Include="BuWorkFlow.cs" />
-    <Compile Include="ext\ayjz_ayzhxxDaoExt.cs" />
-    <Compile Include="ext\ayjz_xrzcDaoExt.cs" />
-    <Compile Include="ext\ayjz_xxtsDaoExt.cs" />
+    <Compile Include="CacheFactory.cs" />
+    <Compile Include="DataBaseEnum.cs" />
+    <Compile Include="DataCache.cs" />
+    <Compile Include="FastInvoke.cs" />
+    <Compile Include="IDataAccess.cs" />
+    <Compile Include="MyConvert.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="base\syslogDao.cs" />
-    <Compile Include="ext\syslogDaoExt.cs" />
+    <Compile Include="syslogDao.cs" />
+    <Compile Include="syslogDaoExt.cs" />
+    <Compile Include="TranAction.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AYJZ.Entities\AYJZ.Entities.csproj">

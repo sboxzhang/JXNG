@@ -45,28 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="base\ayjz_ayzhxxInfo.cs" />
-    <Compile Include="base\ayjz_ddjsInfo.cs" />
-    <Compile Include="base\ayjz_ddxxInfo.cs" />
-    <Compile Include="base\ayjz_ddxx_spInfo.cs" />
-    <Compile Include="base\ayjz_d_fwsjInfo.cs" />
-    <Compile Include="base\ayjz_d_khfwdzInfo.cs" />
-    <Compile Include="base\ayjz_d_lxdhInfo.cs" />
-    <Compile Include="base\ayjz_d_lxsjInfo.cs" />
-    <Compile Include="base\ayjz_d_yhzhInfo.cs" />
-    <Compile Include="base\ayjz_employeeinfoInfo.cs" />
-    <Compile Include="base\ayjz_htjsInfo.cs" />
-    <Compile Include="base\ayjz_htjsmxInfo.cs" />
-    <Compile Include="base\ayjz_htxxInfo.cs" />
-    <Compile Include="base\ayjz_htxx_spInfo.cs" />
-    <Compile Include="base\ayjz_spxxInfo.cs" />
-    <Compile Include="base\ayjz_xrzcInfo.cs" />
-    <Compile Include="base\ayjz_xxtsInfo.cs" />
-    <Compile Include="base\BaseEntitie.cs" />
-    <Compile Include="base\ColumnCollection.cs" />
-    <Compile Include="base\ColumnSchema.cs" />
-    <Compile Include="base\IEntityField.cs" />
-    <Compile Include="base\syslogInfo.cs" />
+    <Compile Include="BaseEntitie.cs" />
     <Compile Include="BuAddress.cs" />
     <Compile Include="BuBigStationInfo.cs" />
     <Compile Include="BuCarInfo.cs" />
@@ -88,7 +67,11 @@
     <Compile Include="BuWFRelationship.cs" />
     <Compile Include="BuWFRelationshipLog.cs" />
     <Compile Include="BuWorkFlow.cs" />
+    <Compile Include="ColumnCollection.cs" />
+    <Compile Include="ColumnSchema.cs" />
+    <Compile Include="IEntityField.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="syslogInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

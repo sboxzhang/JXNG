@@ -45,14 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ayjz_ayzhxxLogic.cs" />
-    <Compile Include="ayjz_ddxxLogic.cs" />
-    <Compile Include="ayjz_ddxx_spLogic.cs" />
-    <Compile Include="ayjz_d_lxdhLogic.cs" />
-    <Compile Include="ayjz_employeeinfoLogic.cs" />
-    <Compile Include="ayjz_khxxlogic.cs" />
-    <Compile Include="ayjz_xrzcLogic.cs" />
-    <Compile Include="AYJZ_XXTSLogic.cs" />
     <Compile Include="BuAddress.cs" />
     <Compile Include="BuBigStationInfo.cs" />
     <Compile Include="BuCarInfo.cs" />
