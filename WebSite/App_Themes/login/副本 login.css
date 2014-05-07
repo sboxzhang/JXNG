@@ -44,7 +44,6 @@
     background-repeat:no-repeat; 
     height:34px; 
     width:291px;
-    margin: 0 auto;
 }
 
 #divPassword 
@@ -59,7 +58,6 @@
     background-repeat:no-repeat; 
     height:34px; 
     width:291px;
-    margin: 0 auto;
 }
 
 #divCode 
@@ -68,7 +66,6 @@
     text-align:left;
     width:291px;
     height:34px;
-    margin: 0 auto;
 }
 
 #divCodeInput 
@@ -89,7 +86,6 @@
 {
     width:291px;
 	margin-top:10px; 
-    margin: 0 auto;
 }
 #divBtn #divBtnLeft
 {

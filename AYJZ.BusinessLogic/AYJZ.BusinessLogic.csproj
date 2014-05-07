@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AYJZ_XXTSLogic.cs" />
     <Compile Include="BuAddress.cs" />
     <Compile Include="BuBigStationInfo.cs" />
     <Compile Include="BuCarInfo.cs" />

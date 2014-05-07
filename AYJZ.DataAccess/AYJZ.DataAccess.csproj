@@ -50,6 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ayjz_xxtsDao.cs" />
+    <Compile Include="ayjz_xxtsDaoExt.cs" />
     <Compile Include="BuAddress.cs" />
     <Compile Include="BuBigStationInfo.cs" />
     <Compile Include="BuCarInfo.cs" />
