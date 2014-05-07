@@ -1,0 +1,145 @@
+﻿body  
+{
+	background-image:url(image/login.jpg); 
+    background-position:top; 
+    background-repeat:repeat-y; 
+    text-align:center; 
+    background-color:#ebebeb; 
+    font-family:微软雅黑;
+    vertical-align:middle;
+}
+#ayjz
+{
+	background-image:url(image/ayjz.png); 
+    background-repeat:no-repeat; 
+    height:35px; 
+    margin-right:auto; 
+    margin-left:44px; 
+    vertical-align:top;
+    text-align:center; 
+}
+#login
+{
+	background-image:url(image/login.png); 
+    background-repeat:no-repeat; 
+    height:432px; width:450px; 
+    margin-right:auto; 
+    margin-left:auto; 
+    vertical-align:top;
+    text-align:center; 
+}
+#mainDiv  
+{
+    background-image:url(image/login.jpg); 
+    background-repeat:no-repeat; 
+    height:800px; width:1300px; 
+    margin-right:auto; 
+    margin-left:auto; 
+    text-align:center; 
+    vertical-align:top;
+}
+#divUserNameInput 
+{
+    background-image:url(image/User.png); 
+    background-repeat:no-repeat; 
+    height:34px; 
+    width:291px;
+}
+
+#divPassword 
+{
+    margin-top:10px; 
+    text-align:center;
+}
+
+#divPasswordInput 
+{
+    background-image:url(image/Password.png);
+    background-repeat:no-repeat; 
+    height:34px; 
+    width:291px;
+}
+
+#divCode 
+{
+    margin-top:10px;
+    text-align:left;
+    width:291px;
+    height:34px;
+}
+
+#divCodeInput 
+{
+    background-image:url(image/code.png);
+    background-repeat:no-repeat; 
+    height:34px; 
+    width:291px;
+}
+
+#imgVerify 
+{
+    margin-left:10px;
+    background-color:transparent;	
+}
+
+#divBtn  
+{
+    width:291px;
+	margin-top:10px; 
+}
+#divBtn #divBtnLeft
+{
+	margin-left:32px; 
+    float:left;
+}
+#divBtn #divBtnClick
+{
+	float:right;
+	margin-right:40px;
+	margin-top:15px; 
+}
+
+.textbox {
+	border: 0px;
+	font-size: 18px;		
+	height:30px;
+	width:240px;
+	background-color:transparent;	
+}
+.textbox2 {
+	border: 0px;
+	font-size: 18px;		
+	height:30px;
+	padding-left:25px;
+	width:120px;
+	background-color:transparent;	
+}
+/* === 定义下拉矿筐DorpDownList使用 === */
+.select
+{
+    border: #7F9DB9 1px solid;
+    font-size: 12px;
+    color: #000000;
+    background-color: #f4f4f4;
+}
+
+.toolbarContent{
+	padding:5px;
+	float:left;
+	height:25px;
+}
+
+.toolbarContent img{
+	border:0px;
+	margin-right:5px;
+}
+
+.toolbarContent a,.toolbarContent a:visited{
+	padding:5px;
+	color:#000000;
+	text-decoration:none;
+	font-size:18px;
+}
+.toolbarContent a:hover{
+	text-decoration:none;
+}

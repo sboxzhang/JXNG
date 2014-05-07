@@ -1,0 +1,262 @@
+﻿body, span, div, p, td,th
+{
+    font-family: "宋体";
+    font-size: 12pt;
+    color: #000000;
+}
+
+select, input, tr, button
+{
+    font-family: "宋体";
+    font-size: 12pt;
+    color: #000000;
+}
+html, body
+{
+    height: 100%;
+    margin: 0pt; /*     scrollbar-face-color: #CCDCEF;     scrollbar-highlight-color: #f5f9ff;     scrollbar-shadow-color: #D7DFE8;      scrollbar-3dlight-color: #D7DFE8;     scrollbar-arrow-color: #10307A;     scrollbar-track-color: #E7EFF8;     scrollbar-darkshadow-color: #ffffff； Line-Height:150%;*/
+    scrollbar-face-color: #EAF4FF;
+    scrollbar-highlight-color: #ffffff;
+    scrollbar-shadow-color: #51ABE0;
+    scrollbar-3dlight-color: #EAF4FF;
+    scrollbar-arrow-color: #1B6DC3;
+    scrollbar-track-color: #F4FBFF;
+    scrollbar-darkshadow-color: #ffffff;
+}
+/**
+ * 超连接样式
+ */
+a:link
+{
+    color: #333366;
+    text-decoration: none;
+}
+a:active
+{
+    color: #333366;
+    text-decoration: none;
+}
+a:visited
+{
+    color: #333366;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+a.a1:link
+{
+    color: #0000CC;
+    text-decoration: none;
+}
+a.a1:active
+{
+    color: #0000CC;
+    text-decoration: none;
+}
+a.a1:visited
+{
+    color: #0000CC;
+    text-decoration: none;
+}
+
+a.a1:hover
+{
+    color: #ff0000;
+    text-decoration: underline;
+}
+a.a2:link
+{
+    color: Black;
+    text-decoration: none;
+}
+a.a2:active
+{
+    color: Black;
+    text-decoration: none;
+}
+a.a2:visited
+{
+    color: Black;
+    text-decoration: none;
+}
+
+a.a2:hover
+{
+    color: Black;
+    text-decoration: underline;
+}
+
+/* === 定义按扭 === */
+.button
+{
+    border-right: #002D96 1px solid;
+    padding-right: 2px;
+    border-top: #002D96 1px solid;
+    padding-left: 2px;
+    font-size: 14px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#9DBCEA);
+    border-left: #002D96 1px solid;
+    cursor: hand;
+    color: black;
+    padding: 2px;
+    border-bottom: #002D96 1px solid;
+    height: 23px;
+}
+.button:link
+{
+    color: black;
+    text-decoration: none;
+}
+.button:visited
+{
+    color: black;
+    text-decoration: none;
+}
+.button:active
+{
+    color: black;
+    text-decoration: none;
+}
+.button:hover
+{
+    cursor: pointer;
+    color: #666666;
+    text-decoration: none;
+}
+/* === 定义下拉矿筐DorpDownList使用 === */
+.select
+{
+    border: #7F9DB9 1px solid;
+    font-size: 12px;
+    color: #000000;
+    background-color: #f4f4f4;
+    width:80%;
+}
+/*===定义文本输入框样式=======*/
+.textbox
+{
+    border: 1px solid #7F9DB9;
+	font-size: 14px;
+	color: #000000;
+	margin: 1px;
+	width:80%;
+	
+}
+.datetextbox{
+	border: 1px solid #7F9DB9;
+	font-size: 14px;
+	color: #000000;
+	margin: 1px;
+	background:#fff url(images/datePicker.gif) no-repeat right;
+	width:80%;
+}
+/*===表格Table===*/
+.StandardTable
+{
+    background: #eaf0fb;
+    border-right: #BCBCBC 1px solid;
+    border-top: #BCBCBC 0px solid;
+    border-left: #BCBCBC 0px solid;
+    border-bottom: #BCBCBC 1px solid;
+    font-size: 12px;
+    font-family: 宋体;
+}
+.StandardTable thead
+{
+    
+    background-color: #EFF7FF;
+    height: 28px;
+    font-size:14px;
+    font-weight:bold;
+    
+   
+}
+.StandardTable thead td
+{
+    border-right: #BCBCBC 0px solid;
+    border-top: #BCBCBC 1px solid;
+    border-left: #BCBCBC 1px solid;
+    border-bottom: #BCBCBC 0px solid;
+    text-align:center;
+    }
+/* === 定義靠左邊的<TD>使用 === */
+.trl
+{
+    font-size: 14px;
+    font-family: 宋体;
+    background: white;
+    border-right: #BCBCBC 0px solid;
+    border-top: #BCBCBC 1px solid;
+    border-left: #BCBCBC 1px solid;
+    border-bottom: #BCBCBC 0px solid;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    height: 26px;
+    white-space: nowrap;
+    text-align: left;
+    padding-left: 2px;
+}
+
+/* === 定義靠右邊的<TD>使用 === */
+.trr
+{
+    font-size: 14px;
+    font-family: 宋体;
+    background: #f9f9f9;
+    border-right: #BCBCBC 0px solid;
+    border-top: #BCBCBC 1px solid;
+    border-left: #BCBCBC 1px solid;
+    border-bottom: #BCBCBC 0px solid;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    height: 26px;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 2px;
+}
+/* === 定義置中的<TD>使用 === */
+.trc
+{
+    font-size: 14px;
+    font-family: 宋体;
+    background: white;
+    border-right: #BCBCBC 0px solid;
+    border-top: #BCBCBC 1px solid;
+    border-left: #BCBCBC 1px solid;
+    border-bottom: #BCBCBC 0px solid;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    height: 26px;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.TreeViewStyle a
+{
+    text-decoration: none;
+    color:#33728c;
+    font-family:新宋体;
+}
+
+/*淘宝风格*/
+.paginator { font: 12px Arial, Helvetica, sans-serif;padding:10px 20px 10px 0; margin: 0px;}
+.paginator a {border:solid 1px #ccc;color:#0063dc;cursor:pointer;text-decoration:none;}
+.paginator a:visited {padding: 1px 6px; border: solid 1px #ddd; background: #fff; text-decoration: none;}
+.paginator .cpb {border:1px solid #F50;font-weight:700;color:#F50;background-color:#ffeee5;}
+.paginator a:hover {border:solid 1px #F50;color:#f60;text-decoration:none;}
+.paginator a,.paginator a:visited,.paginator .cpb,.paginator a:hover  
+{float:left;height:16px;line-height:16px;min-width:10px;_width:10px;margin-right:5px;text-align:center;
+ white-space:nowrap;font-size:12px;font-family:Arial,SimSun;padding:0 3px;}

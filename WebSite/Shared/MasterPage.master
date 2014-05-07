@@ -1,0 +1,41 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Shared_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+   <meta http-equiv="content-type" content="text/html;charset=gb2312">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body style="margin-left:2px;margin-right:2px;margin-top:5px">
+    <form id="form1" runat="server">
+    <%  
+//Response.Buffer = true;
+//Response.ExpiresAbsolute = DateTime.Now.AddDays(-1);  
+//Response.Expires = 0;
+//Response.CacheControl = "no-cache";
+%> 
+    
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Scripts/jquery-1.4.2.min.js")%>"></script>
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Scripts/My97DatePicker/WdatePicker.js")%>"></script>
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Scripts/Validator.js")%>"></script>
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Scripts/WaitPrompt.js")%>"></script>
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Scripts/TreeView2.js")%>"></script>
+    <div>
+    <table  border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr><td style="width:80%">
+        <asp:ContentPlaceHolder ID="Content" runat="server">
+        
+        </asp:ContentPlaceHolder></td></tr>
+    </table>
+    </div>
+<%--    <script type="text/javascript">
+        $(function() {
+        $("input[type='submit']").click(function() { showdiv('数据提交中<br/>请稍候........ <br/> '); });
+    });
+    </script>--%>
+    </form>
+</body>
+</html>

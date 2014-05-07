@@ -1,0 +1,52 @@
+﻿<%--
+<asp:GridView CssClass="GridViewStyle" runat="server" SkinId="gridviewSkin">
+    <FooterStyle CssClass="GridViewFooterStyle" />
+    <RowStyle CssClass="GridViewRowStyle" />   
+    <SelectedRowStyle CssClass="GridViewSelectedRowStyle" />
+    <PagerStyle CssClass="GridViewPagerStyle" />
+    <AlternatingRowStyle CssClass="GridViewAlternatingRowStyle" />
+    <HeaderStyle CssClass="GridViewHeaderStyle" />
+</asp:GridView>
+--%>
+<asp:Button runat="server" CssClass="button" />
+
+<asp:TextBox runat="server" CssClass="textbox"></asp:TextBox>
+
+<asp:TextBox runat="server" CssClass="datetextbox" SkinId="DateTextbox"></asp:TextBox>
+
+<asp:DropDownList runat="server" CssClass="select"></asp:DropDownList>
+
+
+<asp:GridView CssClass="tablestyle" runat="server" RowStyle-Height="28px" GridLines="Both" >
+    <AlternatingRowStyle CssClass="altrowstyle" />
+    <HeaderStyle CssClass="headerstyle" />
+    <RowStyle CssClass="rowstyle" HorizontalAlign="Center" />
+    <EmptyDataRowStyle  CssClass="emptystyle"  />
+    <PagerSettings FirstPageText="首页" LastPageText="末页" NextPageText="下一页" PageButtonCount="5"
+                                             PreviousPageText="上一页" />
+                                        <PagerStyle BorderColor="#66FF66" Font-Names="宋体" Font-Size="12px" />
+                                        <SelectedRowStyle BackColor="#00C0FF" />
+                                        <EditRowStyle  BackColor="#00C0FF" />
+</asp:GridView>
+
+<asp:TreeView runat="server" CssClass="TreeViewStyle"
+     CollapseImageUrl="images/folderClosed.gif" 
+     ExpandImageUrl="images/folderOpen.gif" ShowLines="True">
+     <ParentNodeStyle ImageUrl="images/folderOpen.gif" />
+     <RootNodeStyle ImageUrl="images/root.gif" />
+     <LeafNodeStyle ImageUrl="images/folderClosed.gif" />
+ </asp:TreeView>
+ 
+ <ajaxToolkit:TabContainer runat="server" Width="100%" CssClass="ajaxTabStyle" >
+ </ajaxToolkit:TabContainer>
+ 
+ <webdiyer:aspnetpager runat="server" AlwaysShow="true" 
+        CustomInfoHTML="共%PageCount%页，当前为第%CurrentPageIndex%页 共%RecordCount%条记录 "  
+        FirstPageText="首页" LastPageText="尾页" NextPageText="下一页" PageIndexBoxType="DropDownList" PrevPageText="上一页" 
+        ShowCustomInfoSection="Left" CustomInfoSectionWidth="20%"
+        ShowPageIndexBox="Always" SubmitButtonText="Go" 
+        TextAfterPageIndexBox="页" LayoutType="table" 
+        TextBeforePageIndexBox="转到" Width="100%"  HorizontalAlign="Left"
+        CssClass="paginator" CurrentPageButtonClass="cpb" 
+        CurrentPageButtonPosition="Beginning">
+    </webdiyer:aspnetpager>

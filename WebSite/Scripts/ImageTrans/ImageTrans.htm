@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>图片变换效果</title>
+<script src="CJL.0.1.min.js"></script>
+<script src="ImageTrans.js"></script>
+</head>
+<body>
+<style>
+#idContainer{border:1px solid #000;width:600px; height:500px; background:#FFF center no-repeat;}
+</style>
+<div id="idContainer"> </div>
+<input id="idLeft" type="button" value="向左旋转" />
+<input id="idRight" type="button" value="向右旋转" />
+<input id="idVertical" type="button" value="垂直翻转" />
+<input id="idHorizontal" type="button" value="水平翻转" />
+<input id="idReset" type="button" value="重置" />
+<input id="idCanvas" type="button" value="使用Canvas" />
+<br>
+<input id="idSrc" type="text" value="http://images.cnblogs.com/cnblogs_com/cloudgamer/143727/r_xx2.jpg" />
+<input id="idLoad" type="button" value="换图" />
+<script>
+(function(){
+
+var container = $$("idContainer"), src = "http://images.cnblogs.com/cnblogs_com/cloudgamer/143727/r_mm14.jpg",
+	options = {
+		onPreLoad: function(){ container.style.backgroundImage = "url('http://images.cnblogs.com/cnblogs_com/cloudgamer/169629/o_loading.gif')"; },
+		onLoad: function(){ container.style.backgroundImage = ""; },
+		onError: function(err){ container.style.backgroundImage = ""; alert(err); }
+	},
+	it = new ImageTrans( container, options );
+it.load(src);
+//垂直翻转
+$$("idVertical").onclick = function(){ it.vertical(); }
+//水平翻转
+$$("idHorizontal").onclick = function(){ it.horizontal(); }
+//左旋转
+$$("idLeft").onclick = function(){ it.left(); }
+//右旋转
+$$("idRight").onclick = function(){ it.right(); }
+//重置
+$$("idReset").onclick = function(){ it.reset(); }
+//换图
+$$("idLoad").onclick = function(){ it.load( $$("idSrc").value ); }
+//Canvas
+$$("idCanvas").onclick = function(){
+	if(this.value == "默认模式"){
+		this.value = "使用Canvas"; delete options.mode;
+	}else{
+		this.value = "默认模式"; options.mode = "canvas";
+	}
+	it.dispose();
+	it = new ImageTrans( container, options );
+	it.load(src);
+}
+
+})()
+</script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>：：阿姨家政后台管理系统：：</title>
+    <link rel="stylesheet" type="text/css" href="App_Themes/Outlook/Outlook.css" />
+
+    <script type="text/javascript" src="Scripts/jquery-1.4.2.min.js"></script>
+
+    <script type="text/javascript" src="Scripts/outlook.js"></script>
+
+    <script type="text/javascript">
+        if (getBrowser() == 6) {
+            $(document).ready(
+                function() {
+                    var w = ($("#PageForm").width() - 200) + "px";
+                    $("#content").css({ width: w });
+                }
+            );
+        }
+        $(document).ready(function() {
+            $.ajax({
+                url: "LoadMenus.ashx",
+                global: false,
+                type: "POST",
+                beforeSend: function() { $("#navigation").html('<div><img src="images/ajax-loader.gif" />数据读取中，请稍候......</div>'); },
+                success: function(data, textStatus) { $("#navigation").html(data); },
+                error: function() { $("#navigation").html(''); }
+            });
+            $.ajax({
+                url: "LoadUserName.aspx",
+                global: false,
+                type: "POST",
+                success: function(data, textStatus) { $("#labUserName").html(data); }
+            });
+        });
+        function GetMune(strid) {
+            $.ajax({
+                url: "GetMenus.ashx",
+                data: { "ID": strid },
+                global: false,
+                type: "POST",
+                beforeSend: function() { $("#htmlMenuPanel").html('<div><img src="images/ajax-loader.gif" />数据读取中，请稍候......</div>'); },
+                success: function(data, textStatus) { $("#htmlMenuPanel").html(data); $("#MenuNamePanel").html($("#" + strid).text()); },
+                error: function() { $("#htmlMenuPanel").html('对不起，获取数据出现错误，请重试！'); }
+            });
+        }
+        function SetDisplay(divid) {
+            if (document.getElementById(divid) != null)
+                if (document.getElementById(divid).style.display == "none") {
+                document.getElementById(divid).style.display = "";
+            }
+            else {
+                document.getElementById(divid).style.display = "none";
+            }
+        }
+        function GetLocation(strid) {
+            $.ajax({
+                url: "GetLocation.ashx",
+                data: { "ID": strid },
+                global: false,
+                type: "POST",
+                success: function(data, textStatus) { $("#divLocation").html('当前位置：' + data); },
+                error: function() { $("#divLocation").html('当前位置：首页'); }
+            });
+
+        }
+        function SetFrameUrl(a) {
+            var x = $("#PageFrame").attr("src");
+            $("#PageFrame").attr("src", a);
+        }
+    </script>
+
+</head>
+<body onresize="resizeWindow()" onload="resizeWindow()" style="overflow: visible">
+    <form id="PageForm">
+    <div>
+        <div>
+            <div style="background-image: url('image/header_bg.jpg'); height: 45px; width: 100%">
+                <div style="float: left; width:230px">
+                    <img src="image/logo.jpg" alt="" /></div>
+                <div style="float: right; height: 45px;">
+                    <div class="toolbarContent" style="padding-right: 50px; padding-top: 25px; text-align: right;">
+                            <label id="labUserName" style="color: #fff">
+                            </label>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="logout.aspx"><span style="color: #fff">退出系统</span></a>
+                            |<a href="admin/UserManager/ModifyPassword.aspx"
+                                target="PageFrame" onclick="$('#divLocation').html('当前位置：修改密码');">
+                                修改密码</a>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="toolbar" style="background-image: url('images/nav_link.jpg'); height: 33px;
+                width: 100%;">
+                <div class="toolbarContent" style="padding: 5px;">
+                    <a id="htmlMenuHide" href="javascript:setMenuHide();">
+                        <img src="images/application_windows_left.png" alt="" />隐藏菜单</a> | <a href="Default.aspx"
+                            target="PageFrame" onclick="$('#divLocation').html('当前位置：首页');">
+                            <img src="App_Themes/Default/images/61.png" alt="" />返回首页</a> |<a href="admin/UserManager/ModifyPassword.aspx"
+                                target="PageFrame" onclick="$('#divLocation').html('当前位置：修改密码');">
+                                <img src="images/icon/13.png" alt="" />修改密码</a>
+                </div>
+            </div>-->
+        </div>
+        <!--<div class="clear">
+        </div>-->
+        <div class="clear">
+        </div>
+        <div class="navigation" id="navigation">
+        </div>
+        <div class="content" id="content">
+            <div class="subHeader">
+                <div style="font-weight: lighter; font-size: 12px; background-color:F5F5F5;">
+                    <img src="images/home.gif" alt="" />&nbsp;<span style="vertical-align: top; color: #616161"
+                        id="divLocation">当前位置：首页</span>
+                </div>
+            </div>
+            <div class="contentPanel" id="contentPanel">
+                <iframe id="PageFrame" name="PageFrame" width="100%" height="99%" frameborder="0"
+                    src="Default.aspx" style="border: 0px solid #cecece; overflow: hidden"></iframe>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

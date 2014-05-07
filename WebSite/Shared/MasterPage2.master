@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="Shared_MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+        <link rel="stylesheet" href="../App_Themes/Default/Style.css" type="text/css" />
+    <link rel="stylesheet" href="../App_Themes/Default/AjaxTabStyle.css" type="text/css" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" enctype="multipart/form-data">
+    <%  
+Response.Buffer = true;
+Response.ExpiresAbsolute = DateTime.Now.AddDays(-1);  
+Response.Expires = 0;
+Response.CacheControl = "no-cache";
+%> 
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Scripts/jquery-1.4.2.min.js")%>"></script>
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Scripts/My97DatePicker/WdatePicker.js")%>"></script>
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Scripts/Validator.js")%>"></script>
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Scripts/WaitPrompt.js")%>"></script>
+    <div id ="divMaster">
+        <asp:ContentPlaceHolder id="Master22" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+<%--        <script type="text/javascript">
+        $(function() {
+        $("input[type='submit']").click(function() { showdiv('数据提交中<br/>请稍候........ <br/> '); });
+    });
+    </script>--%>
+    </form>
+</body>
+</html>

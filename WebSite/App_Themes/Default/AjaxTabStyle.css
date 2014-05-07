@@ -1,0 +1,45 @@
+﻿/* ajax__tab_yuitabview-theme theme (img/yui/sprite.png) */
+.ajaxTabStyle .ajax__tab_header 
+{
+    font-family:微软雅黑,helvetica,clean,sans-serif;
+    font-size:9pt;
+    border-bottom:solid 1px #F9F9F9;
+}
+.ajaxTabStyle .ajax__tab_header .ajax__tab_outer 
+{
+    background:#FFF repeat-x;
+    margin:0px 0.16em 0px 0px;
+    padding:0px 0px 0px 0px;
+    vertical-align:bottom;
+    border:solid 1px #a3a3a3;
+    border-bottom-width:0px;
+    color:#000;
+}
+.ajaxTabStyle .ajax__tab_header .ajax__tab_tab
+{    
+    color:#000;
+    padding:0.35em 0.75em;    
+    margin-right:0.01em;
+}
+.ajaxTabStyle .ajax__tab_hover .ajax__tab_outer 
+{
+    background: #bfdaff repeat-x left -1300px;
+}
+.ajaxTabStyle .ajax__tab_active .ajax__tab_tab 
+{
+    color:#000;
+}
+.ajaxTabStyle .ajax__tab_active .ajax__tab_outer
+{
+    background: #F9F9F9 repeat-x;
+}
+.ajaxTabStyle .ajax__tab_body 
+{
+    font-family:verdana,tahoma,helvetica;
+    font-size:9pt;
+    padding:0.3em 0.0em;
+    background-color:White;   
+    border:solid 0px #808080;
+    border-top-width:0px;
+    
+}

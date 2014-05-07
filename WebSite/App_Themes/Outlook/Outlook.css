@@ -1,0 +1,175 @@
+﻿/* COMMON */
+	body, html
+	{
+		height:100%;
+		/*margin: 0px auto;*/
+		margin:0;
+		padding:0;
+		padding-bottom:-4px;
+		
+	}
+	body
+	{
+		margin: 0px;
+		text-align: left;
+		font-family: Tahoma, 微软雅黑, Helvetica, sans-serif;
+		font-size: 14px;
+		background-color: #f2f2f2;
+		background-repeat:repeat-x;
+		min-width:980px;
+	}
+	.header{
+		padding:15px 5px;
+	}
+	.header div{
+		float:right;
+		padding:5px 0px;
+	}
+	.header div a{
+		color:#fff;
+	}
+	.header img, .navPanel img, .navSelect img{
+		vertical-align:middle;
+		margin:0px 5px 0px 0px;
+		border:none;
+	}
+	.subHeader
+	{
+		background-color:#fafafa;
+		background-repeat:repeat-x;
+		height:27px;
+	}
+	.subHeader div{
+		padding:5px;
+		font-size:14px;
+		font-weight:bold;
+		color:#5399BD;
+	}
+	.clear{
+		clear:both;
+		float:none;
+		overflow:hidden;
+		font-size: 0;
+ 		margin: 0;
+ 		padding: 0;
+ 		visibility: hidden;
+ 		width: 0;
+		height:0px !important;
+		_width:0px;/*只兼容IE6*/
+		_height:0px;
+	}
+	.title{
+		font-size:24px;
+		font-weight:bold;
+		padding:0px 5px;
+	}
+	/* TOOLBAR */
+	.toolbar{
+		height:33px;
+		margin:0px 0px;
+		background-image:url('images/nav_link.png'); 
+		background-repeat:repeat-x;
+	}
+	.toolbarLeft{
+		background-image:url('images/toolbar_left.png'); 
+		background-repeat:no-repeat;
+		height:25px;
+		width:7px;
+		float:left;
+	}
+	.toolbarRight{
+		background-image:url('images/toolbar_right.png'); 
+		background-repeat:no-repeat;
+		height:25px;
+		width:12px;	
+		float:left;
+	}
+	.toolbarContent{
+		padding:0px;
+		float:left;
+		height:25px;
+	}
+	
+	.toolbarContent img{
+		vertical-align:top;
+		border:0px;
+		margin-right:5px;
+	}
+	
+	.toolbarContent a,.toolbarContent a:visited{
+		padding:5px;
+		color:#fff;
+		text-decoration:none;
+	}
+	.toolbarContent a:hover{
+		text-decoration:none;
+	}
+	/* NAVIGATION */
+	.navigation{
+		width:15%;
+		_width:180px;/*兼容IE6*/
+		height:85%;
+		margin: 0px 0px 0px 0px !important;/*兼容IE7,IE8*/
+		_margin: 0px 0px 0px 0px;/*兼容IE6*/
+		border:solid 1px #F9F9F9;
+		background-color:#ffffff;
+		float:left;
+		vertical-align:bottom;
+		position:relative;
+	}
+	.navPanel{
+		padding:10px;
+		height:60%;
+	}
+	.navPanel a, .navPanel a:visited{
+		padding:5px 5px;
+		display:block;
+		color:#000000;
+		border:solid 1px #ffffff;
+		text-decoration:none;
+	}
+	.navPanel a:hover{
+		background-color:#FFE88C;
+		border:solid 1px #D2EEEF;
+	}
+	.navSeparator{
+		height:1px;
+		/*background-image:url('images/nav_separator.jpg'); */
+		border:solid 1px #F9F9F9;
+		background-repeat:repeat-x; 
+		background-position:center;
+	}
+	.navSelect{
+		position:absolute;
+		background-image  :url('images/nav_separator.jpg');
+		bottom:0px;
+		width:100%;
+	}
+	.navSelect a{
+		height:39px;
+		display:block;
+		padding:5px;
+		background-repeat:repeat-x;
+		font-weight:bold;
+		text-decoration:none;
+		color:#7c7c7c;
+	}
+	.navSelect a:hover{
+		/*background-image:url('images/nav_link_hover.png'); */
+		background-repeat:repeat-x;
+	}
+	/* CONTENT */
+	.content{
+		width:83%;
+		/*_width:inherit;兼容IE6*/
+		margin: 0px 0px 0px 0px !important;/*兼容IE7,IE8*/
+		_margin: 0px 0px 0px 0px;/*兼容IE6*/
+		background-color:#ffffff;
+		border:solid 1px #ffffff;
+		vertical-align:top;
+		float:left;
+	}
+	.contentPanel{
+		padding:2px;
+		overflow:auto;
+	}

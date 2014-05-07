@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="admin_MasterPage" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color:White;margin-left:5px;margin-right:0px;margin-top:5px">
+    <form id="form1" runat="server">
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Scripts/TreeView2.js")%>"></script>
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Scripts/jquery-1.4.2.min.js")%>"></script>
+    <div>
+        <asp:ContentPlaceHolder id="MainPage" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

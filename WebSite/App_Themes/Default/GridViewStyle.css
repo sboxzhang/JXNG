@@ -1,0 +1,138 @@
+﻿.tablestyle 
+{
+	font-family: arial;
+	font-size: 9pt;
+	border: solid 1px #7f7f7f;
+}
+
+.altrowstyle 
+{
+    background-color: #edf5ff;
+}
+
+.headerstyle th 
+{
+    /*background: url(images/gvheader.png) repeat-x 0px 0px;*/
+    background: url(images/sprite.png) #bfdaff repeat-x left -1300px;
+    border-color: #989898 #cbcbcb #989898 #989898;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: #000;
+    padding: 4px 5px 4px 10px;
+    text-align: center;
+    vertical-align:middle;
+    height:26px;
+} 
+
+.headerstyle th a
+{
+    font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+    color: #000;
+	display: block;
+    padding-right: 10px;
+}    
+.emptystyle td
+{
+    background-color: #edf5ff;
+    background: url(images/sprite.png) #bfdaff repeat-x left -1300px;
+    border-color: #989898 #cbcbcb #989898 #989898;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: #000;
+    padding: 4px 5px 4px 10px;
+    text-align: center;
+    vertical-align: middle;
+    height:26px;
+    font-weight:bold;
+ }
+.rowstyle .sortaltrow, .altrowstyle .sortaltrow 
+{
+    background-color: #edf5ff;
+}
+
+.rowstyle .sortrow, .altrowstyle .sortrow 
+{
+    background-color: #dbeaff;
+}
+
+.rowstyle td, .altrowstyle td 
+{
+    padding: 4px 10px 4px 10px;
+    border-right: solid 1px #cbcbcb;
+}
+
+.headerstyle .sortascheader 
+{
+    background: url(images/gvheader.png) repeat-x 0px -100px;
+}
+
+.headerstyle .sortascheader a 
+{
+    background: url(images/dt-arrow-up.png) no-repeat right 50%;
+} 
+
+.headerstyle .sortdescheader 
+{
+    background: url(images/sprite.png) repeat-x 0px -100px;
+}   
+
+.headerstyle .sortdescheader a 
+{
+    background: url(images/dt-arrow-dn.png) no-repeat right 50%;
+} 
+
+/*=======分页样式======*/
+.GridViewPagerStyle table tr td span
+{
+    border:#96C2F1 1px solid;
+    background-color: aliceblue;
+    color: black;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    margin: 2px;
+}
+.GridViewPagerStyle table tr td
+{
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+}
+div.GridViewPagerStyle table tr td a
+{
+    border:#aaaadd 1px solid;
+    color: black;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin: 2px;
+    text-decoration: none;
+}
+div.GridViewPagerStyle table tr td A:hover
+{
+    border:#96C2F1 1px solid;
+    color: black;
+    text-decoration: none;
+    background-color: beige;
+}
+div.GridViewPagerStyle table tr td A:active
+{
+    border:#96C2F1 1px solid;
+    color: black;
+    text-decoration: none;
+}
+
+.Freezing 
+   { 
+
+   position:relative ; 
+   table-layout:fixed;
+   top:expression(this.offsetParent.scrollTop);   
+   z-index: 10;
+   } 
+.Freezing th{text-overflow:ellipsis;overflow:hidden;white-space: nowrap;padding:2px;}

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{49E932AD-B1D6-4F02-AA89-918782EB005C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AYJZ.BusinessLogic</RootNamespace>
+    <AssemblyName>AYJZ.BusinessLogic</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ayjz_ayzhxxLogic.cs" />
+    <Compile Include="ayjz_ddxxLogic.cs" />
+    <Compile Include="ayjz_ddxx_spLogic.cs" />
+    <Compile Include="ayjz_d_lxdhLogic.cs" />
+    <Compile Include="ayjz_employeeinfoLogic.cs" />
+    <Compile Include="ayjz_khxxlogic.cs" />
+    <Compile Include="ayjz_xrzcLogic.cs" />
+    <Compile Include="AYJZ_XXTSLogic.cs" />
+    <Compile Include="BuAddress.cs" />
+    <Compile Include="BuBigStationInfo.cs" />
+    <Compile Include="BuCarInfo.cs" />
+    <Compile Include="BuCarRepair.cs" />
+    <Compile Include="BuCityInfo.cs" />
+    <Compile Include="BuGastankInfo.cs" />
+    <Compile Include="BuGastankRepair.cs" />
+    <Compile Include="BuGPSInfo.cs" />
+    <Compile Include="BuGPSLog.cs" />
+    <Compile Include="BuKindInfo.cs" />
+    <Compile Include="BuPost.cs" />
+    <Compile Include="BuProvinceInfo.cs" />
+    <Compile Include="BuRepairing.cs" />
+    <Compile Include="BuSchedule.cs" />
+    <Compile Include="BuScheduleApply.cs" />
+    <Compile Include="BuStationInfo.cs" />
+    <Compile Include="BuTypeInfo.cs" />
+    <Compile Include="BuWFProcess.cs" />
+    <Compile Include="BuWFRelationship.cs" />
+    <Compile Include="BuWFRelationshipLog.cs" />
+    <Compile Include="BuWorkFlow.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="syslogLogic.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AYJZ.DataAccess\AYJZ.DataAccess.csproj">
+      <Project>{151531CC-8DC7-4515-99BC-73AD254570C8}</Project>
+      <Name>AYJZ.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AYJZ.Entities\AYJZ.Entities.csproj">
+      <Project>{4B4D22EB-F909-4B36-8C1A-E577ADDB3830}</Project>
+      <Name>AYJZ.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

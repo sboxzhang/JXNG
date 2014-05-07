@@ -1,0 +1,491 @@
+﻿
+
+
+
+body, span, div, p, td, select, input, tr, button
+{
+    font-family: "宋体";
+    font-size: 9pt;
+    color: #000000;
+}
+html, body
+{
+    height: 100%;
+    margin: 0pt; /*     scrollbar-face-color: #CCDCEF;     scrollbar-highlight-color: #f5f9ff;     scrollbar-shadow-color: #D7DFE8;      scrollbar-3dlight-color: #D7DFE8;     scrollbar-arrow-color: #10307A;     scrollbar-track-color: #E7EFF8;     scrollbar-darkshadow-color: #ffffff； Line-Height:150%;*/ /*  scrollbar-face-color: #EAF4FF;     scrollbar-highlight-color: #ffffff;     scrollbar-shadow-color: #51ABE0;     scrollbar-3dlight-color: #EAF4FF;     scrollbar-arrow-color: #1B6DC3;     scrollbar-track-color: #F4FBFF;     scrollbar-darkshadow-color: #ffffff;*/
+}
+/**
+ * 超连接样式
+ */
+a:link
+{
+    color: #333366;
+    text-decoration: none;
+}
+a:active
+{
+    color: #333366;
+    text-decoration: none;
+}
+a:visited
+{
+    color: #333366;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+a.a1:link
+{
+    color: #0000CC;
+    text-decoration: none;
+}
+a.a1:active
+{
+    color: #0000CC;
+    text-decoration: none;
+}
+a.a1:visited
+{
+    color: #0000CC;
+    text-decoration: none;
+}
+
+a.a1:hover
+{
+    color: #ff0000;
+    text-decoration: underline;
+}
+a.a2:link
+{
+    color: Black;
+    text-decoration: none;
+}
+a.a2:active
+{
+    color: Black;
+    text-decoration: none;
+}
+a.a2:visited
+{
+    color: Black;
+    text-decoration: none;
+}
+
+a.a2:hover
+{
+    color: Black;
+    text-decoration: underline;
+}
+
+/* === 定义按扭 === */
+
+.button
+{
+    margin:2px;
+    border-right: #7EBF4F 1px solid;
+    padding-right: 2px;
+    border-top: #7EBF4F 1px solid;
+    padding-left: 2px;
+    font-size: 12px;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#B3D997);
+    border-left: #7EBF4F 1px solid;
+    cursor: hand;
+    color: black;
+    padding-top: 2px;
+    border-bottom: #7EBF4F 1px solid;
+    height: 23px;
+    width:75px;
+}
+.button:link
+{
+    color: black;
+    text-decoration: none;
+}
+.button:visited
+{
+    color: black;
+    text-decoration: none;
+}
+.button:active
+{
+    color: black;
+    text-decoration: none;
+}
+.button:hover
+{
+    cursor: pointer;
+    color: #666666;
+    text-decoration: none;
+}
+/* === 定义下拉矿筐DorpDownList使用 === */
+.select
+{
+    border: #7F9DB9 1px solid;
+    font-size: 12px;
+    color: #000000;
+    background-color: #f4f4f4;
+    height: 16px;
+}
+/*===定义文本输入框样式=======*/
+/*.textbox
+{
+    border: 1px solid #7F9DB9;
+	font-size: 20px;
+	color: #000000;
+	margin: 1px;
+	background-color: #000000;
+}*/
+.datetextbox
+{
+    border: 1px solid #7F9DB9;
+    font-size: 12px;
+    color: #000000;
+    margin: 1px;
+    background: #fff url(images/datePicker.gif) no-repeat right;
+}
+/*===表格Table===*/
+
+.TableEdit
+{
+    background: #95B371;
+    font-size: 12px;
+    font-family: 宋体;
+}
+
+
+.TreeViewStyle a
+{
+    text-decoration: none;
+}
+
+
+
+/* new Add  */
+
+body
+{
+    margin: 0;
+}
+
+/*超链接样式*/
+a:link
+{
+    font-size: 12px;
+    text-decoration: none;
+    color: #06527d;
+}
+a:visited
+{
+    font-size: 12px;
+    text-decoration: none;
+    color: #06527d;
+}
+a:hover
+{
+    font-size: 12px;
+    text-decoration: underline;
+    color: #FF0000;
+}
+
+a.v1:link
+{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000;
+}
+a.v1:visited
+{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000;
+}
+a.v1:hover
+{
+    font-size: 12px;
+    text-decoration: underline;
+    color: #FF0000;
+}
+
+/*表格第一行样式*/
+.first_line
+{
+    line-height: 7px;
+}
+.first_line_left
+{
+    width: 11px;
+    line-height: 7px;
+    background-image: url(../images/tab_03.gif);
+    background-repeat: no-repeat;
+}
+.first_line_center
+{
+    background-image: url(../images/tab_05.gif);
+    line-height: 7px;
+}
+.first_line_right
+{
+    width: 11px;
+    line-height: 7px;
+    background-image: url(../images/tab_07.gif);
+    background-repeat: no-repeat;
+}
+
+/*表格第二行样式*/
+.second_line_1
+{
+    width: 11px;
+    line-height: 27px;
+    background-image: url(../images/tab_09.gif);
+    background-repeat: no-repeat;
+}
+.second_line_2
+{
+    width: 300px;
+    background-image: url(../images/tab_10.gif);
+}
+.second_line_3
+{
+    width: 32px;
+    background-image: url(../images/tab_11.gif);
+    font-weight: bold;
+    background-repeat: no-repeat;
+}
+.second_line_4
+{
+    background-image: none;
+    background-image: url(../images/tab_12.gif);
+    text-align: right;
+}
+.second_line_5
+{
+    width: 11px;
+    background-image: url(../images/tab_16.gif);
+    background-repeat: no-repeat;
+}
+.second_line_span
+{
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+/*表格第三行样式*/
+.third_line_left
+{
+    width: 11px;
+    background-image: url(../images/tab_21.gif);
+    background-repeat: repeat-y;
+}
+.third_line_right
+{
+    width: 11px;
+    background-image: url(../images/tab_22.gif);
+    background-repeat: repeat-y;
+}
+
+/*表格第四行样式*/
+.fourth_line_left
+{
+    width: 11px;
+    line-height: 31px;
+    background-image: url(../images/tab_25.gif);
+    background-repeat: no-repeat;
+}
+.fourth_line_center
+{
+    background-image: url(../images/tab_27.gif);
+}
+.fourth_line_right
+{
+    width: 11px;
+    line-height: 31px;
+    background-image: url(../images/tab_28.gif);
+    background-repeat: no-repeat;
+}
+
+/*数据列表样式*/
+.tab_body
+{
+    width: 100%;
+    line-height: 22px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: center;
+}
+.td1
+{
+    line-height: 22px;
+    border: solid 1px #e1e1e1;
+    font-size: 12px;
+}
+.td2
+{
+    line-height: 22px;
+    border: solid 1px #e1e1e1;
+    font-size: 12px;
+    background-image: url(../images/tab_29.gif);
+    font-weight: bolder;
+}
+.ft
+{
+    font-size: 12px;
+}
+
+/*交替背景样式*/
+.cellColor
+{
+    background-image: url(../images/tab_29.gif);
+    font-size: 12px;
+    font-weight: bolder;
+    border: solid 1px #e1e1e1;
+}
+.cellChangeColor
+{
+    background-image: url(../images/tab_30.gif);
+    font-size: 12px;
+    font-weight: bolder;
+    border: solid 1px #e1e1e1;
+}
+
+/*输入框样式*/
+.it
+{
+    height: 16px;
+    width: 25px;
+}
+
+.textbox
+{
+    font-size: 12px;
+    color: #333333; /*border: 1px solid #95B371;*/
+    border: 1px solid #B5D6E6;
+    margin: 1px;
+}
+.xz td
+{
+    font-size: 12px;
+    color: #333333;
+}
+/*===表格Table===*/
+.StandardTable
+{
+    background: #eaf0fb; /*96C2F1   95B371*/
+    border-right: #95B371 1px solid;
+    border-top: #95B371 0px solid;
+    border-left: #95B371 0px solid;
+    border-bottom: #95B371 1px solid;
+    font-size: 12px;
+    font-family: 宋体;
+}
+.StandardTable thead
+{
+    background-color: #EFF7FF;
+    height: 28px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.StandardTable thead td
+{
+    border-right: #96C2F1 0px solid;
+    border-top: #96C2F1 0px solid;
+    border-left: #96C2F1 0px solid;
+    border-bottom: #96C2F1 0px solid;
+    text-align: center;
+}
+/* === 定義靠左邊的<TD>使用 === */
+.trl
+{
+    font-size: 12px;
+    font-family: 宋体;
+    background: #F3FFE3; /*     border-right: #96C2F1 0px solid;     border-top: #96C2F1 1px solid;     border-left: #96C2F1 1px solid;     border-bottom: #96C2F1 0px solid; */
+    border-right: #95B371 0px solid;
+    border-top: #95B371 1px solid;
+    border-left: #95B371 1px solid;
+    border-bottom: #95B371 0px solid;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    height: 26px;
+    /*white-space: nowrap;*/
+    text-align: left;
+    padding-left: 2px; /*width: 40%;*/
+}
+
+/* === 定義靠右邊的<TD>使用 === */
+.trr
+{
+    font-size: 12px;
+    font-family: 宋体;
+    background: #EBFFD0; /*     border-right: #96C2F1 0px solid;     border-top: #96C2F1 1px solid;     border-left: #96C2F1 1px solid;     border-bottom: #96C2F1 0px solid; */
+    border-right: #95B371 0px solid;
+    border-top: #95B371 1px solid;
+    border-left: #95B371 1px solid;
+    border-bottom: #95B371 0px solid;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    height: 26px;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 2px;
+}
+/* === 定義置中的<TD>使用 === */
+.trc
+{
+    font-size: 12px;
+    font-family: 宋体;
+    background: #F3FFE3; /*     border-right: #96C2F1 0px solid;     border-top: #96C2F1 1px solid;     border-left: #96C2F1 1px solid;     border-bottom: #96C2F1 0px solid; */
+    border-right: #95B371 0px solid;
+    border-top: #95B371 1px solid;
+    border-left: #95B371 1px solid;
+    border-bottom: #95B371 0px solid;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    height: 26px;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.Preview
+{
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale');
+}
+
+.overlay { 
+    display:none;  
+     
+    z-index:10000; 
+     
+    background-color:#EBFFD0; 
+     
+    width:240px;     
+    min-height:180px; 
+    border:1px solid #666; 
+     
+    text-align:center; 
+     /*
+    -moz-box-shadow:0 0 90px 5px #CECECE; 
+    -webkit-box-shadow: 0 0 90px #CECECE;  
+    */   
+} 
+ 
+.overlay .close { 
+    background-image:url(images/close.png); 
+    position:absolute; 
+    right:-15px; 
+    top:-15px; 
+    cursor:pointer; 
+    height:35px; 
+    width:35px; 
+}
