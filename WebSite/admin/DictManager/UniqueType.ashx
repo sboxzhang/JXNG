@@ -2,7 +2,7 @@
 
 using System;
 using System.Web;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 public class UniqueType : IHttpHandler {
     Dict _Dict = new Dict();
     public void ProcessRequest (HttpContext context) {

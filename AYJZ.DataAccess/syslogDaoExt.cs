@@ -5,7 +5,7 @@ using System.Text;
 using System.Data;
 using JITE.CIS.Framework.DBProviders;
 
-namespace AYJZ.DataAccess
+namespace VSM.DataAccess
 {
     public partial class syslogDao
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 using System.Reflection;
 using System.Data;
 public partial class admin_RoleManager_Default : System.Web.UI.Page

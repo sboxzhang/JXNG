@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.Security;
 using JITE.CIS.Framework.Utilities;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 
 public partial class logout : System.Web.UI.Page
 {

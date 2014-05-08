@@ -4,7 +4,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.XPath;
 using System.Web;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 using System.IO;
 using System.Web.Services.Protocols;
 using JITE.CIS.Framework.Utilities;

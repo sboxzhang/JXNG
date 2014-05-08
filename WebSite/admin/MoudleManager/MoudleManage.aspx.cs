@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 using System.IO;
 
 public partial class admin_ModuleManager_ModuleManage : System.Web.UI.Page

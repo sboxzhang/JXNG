@@ -2,7 +2,7 @@
 
 using System;
 using System.Web;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 public class Unique : IHttpHandler {
     Dict _Dict = new Dict();
     /// <summary>

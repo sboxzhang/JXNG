@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace AYJZ.Entities
+namespace VSM.Entities
 {
     public class ColumnCollection : List<ColumnSchema>
     {

@@ -8,7 +8,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Text;
 using System.Collections;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 using JITE.CIS.Framework.Utilities;
 using System.Web.Security;
 using JITE.CIS.DevFx.Security;

@@ -5,10 +5,10 @@ using System.Reflection;
 using System.Data;
 using System.Collections.Generic;
 using MySql.Data.MySqlClient;
-using AYJZ.Entities;
+using VSM.Entities;
 using JITE.CIS.Framework.DBProviders;
 using System.Data.Common;
-namespace AYJZ.DataAccess
+namespace VSM.DataAccess
 {
     public partial class ayjz_xxtsDao:IDataAccess
     {

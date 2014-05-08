@@ -4,17 +4,17 @@ using System.Reflection;
 using System.Collections.Generic; 
 using System.Data;
 using MySql.Data.MySqlClient;
-using AYJZ.Entities;
+using VSM.Entities;
 using System.Data.Common;
 using JITE.CIS.Framework.DBProviders;
-namespace AYJZ.DataAccess  
+namespace VSM.DataAccess  
 {	
 	public partial class BuGPSLogDao : IDataAccess
 	{
 		const bool isDebug = true;
         private static readonly string DalSql = " Select GPSLogId,SynchronizationStatus,SynchronizationDate,SynchronizationInfo from BuGPSLog Where 1=1 ";
    		     
-   		private int RunCommandWithTransatcion(AYJZ.Entities.BuGPSLog ent, string vSql, IDbTransaction TRANS)
+   		private int RunCommandWithTransatcion(VSM.Entities.BuGPSLog ent, string vSql, IDbTransaction TRANS)
         {
             if (null == TRANS)
             {

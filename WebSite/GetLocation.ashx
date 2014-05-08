@@ -2,7 +2,7 @@
 
 using System;
 using System.Web;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 public class GetLocation : IHttpHandler {
     Moudle _Moudle = new Moudle();
     public void ProcessRequest (HttpContext context) {

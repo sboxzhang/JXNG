@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Transactions;
 
-namespace AYJZ.DevFx.SysManage
+namespace VSM.DevFx.SysManage
 {
     public class User
     {

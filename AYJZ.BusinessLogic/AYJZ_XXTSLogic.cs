@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using AYJZ.DataAccess;
+using VSM.DataAccess;
 using System.Data;
-using AYJZ.Entities;
-namespace AYJZ.BusinessLogic
+using VSM.Entities;
+namespace VSM.BusinessLogic
 {
     public class AYJZ_XXTSLogic
     {

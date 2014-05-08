@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI.WebControls;
 using System.Web.Security;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 using System.Web.UI;
 
 /// <summary>

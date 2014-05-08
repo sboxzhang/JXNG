@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using AYJZ.DataAccess;
-using AYJZ.Entities;
+using VSM.DataAccess;
+using VSM.Entities;
 using System.Data;
 
-namespace AYJZ.BusinessLogic
+namespace VSM.BusinessLogic
 {
     public class syslogLogic
     {

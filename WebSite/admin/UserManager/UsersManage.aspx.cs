@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Collections;
 using System.Data;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 public partial class admin_UsersManage : System.Web.UI.Page
 {
     User _User = new User();

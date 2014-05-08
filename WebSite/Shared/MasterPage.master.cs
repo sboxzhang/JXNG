@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.Security;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 using System.Data;
 
 public partial class Shared_MasterPage : System.Web.UI.MasterPage

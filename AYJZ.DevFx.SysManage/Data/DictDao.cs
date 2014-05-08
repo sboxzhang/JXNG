@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using JITE.CIS.Framework.DBProviders;
 using System.Data.Common;
-namespace AYJZ.DevFx.SysManage
+namespace VSM.DevFx.SysManage
 {
     partial class DictDao
     {

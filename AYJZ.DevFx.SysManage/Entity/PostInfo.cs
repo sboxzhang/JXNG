@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AYJZ.DevFx.SysManage
+namespace VSM.DevFx.SysManage
 {
     [Serializable]
     public class PostInfo

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using JITE.CIS.DevFx.Security;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 public partial class admin_UserManager_ModifyPassword : System.Web.UI.Page
 {
     User _User = new User();

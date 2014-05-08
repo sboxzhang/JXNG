@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Data;
-namespace AYJZ.Entities{	
+namespace VSM.Entities{	
 	 	//BuStationInfo
 		public class BuStationInfo : BaseEntitie
 	{

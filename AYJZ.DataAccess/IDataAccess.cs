@@ -1,7 +1,7 @@
 using System;
-using AYJZ.Entities;
+using VSM.Entities;
 using System.Data;
-namespace AYJZ.DataAccess
+namespace VSM.DataAccess
 {
 	interface IDataAccess
     {

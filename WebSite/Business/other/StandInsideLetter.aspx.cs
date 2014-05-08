@@ -10,8 +10,8 @@ using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Xml.Linq;
-using AYJZ.BusinessLogic;
-using AYJZ.Entities;
+using VSM.BusinessLogic;
+using VSM.Entities;
 using JITE.CIS.DevFx.Security;
 public partial class business_other_StandInsideLetter : System.Web.UI.Page
 {

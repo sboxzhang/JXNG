@@ -2,7 +2,7 @@
 
 using System;
 using System.Web;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 public class Unique : IHttpHandler {
     Post _Post = new Post();
     public void ProcessRequest (HttpContext context) {

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Data;
 using JITE.CIS.Framework.DBProviders;
-using AYJZ.Entities;
+using VSM.Entities;
 
-namespace AYJZ.DataAccess
+namespace VSM.DataAccess
 {
     public partial class ayjz_xxtsDao
     {

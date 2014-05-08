@@ -5,7 +5,7 @@ using System.Text;
 using JITE.CIS.Framework.DBProviders;
 using System.Data.Common;
 using System.Data;
-namespace AYJZ.DevFx.SysManage
+namespace VSM.DevFx.SysManage
 {
     partial class RoleMoudleDao
     {

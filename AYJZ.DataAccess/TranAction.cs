@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using AYJZ.Entities;
+using VSM.Entities;
 using System.Data;
 using JITE.CIS.Framework.DBProviders;
-namespace AYJZ.DataAccess
+namespace VSM.DataAccess
 {
     public class TranAction
     {

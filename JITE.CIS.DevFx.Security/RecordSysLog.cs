@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Web;
-using AYJZ.BusinessLogic;
-using AYJZ.Entities;
+using VSM.BusinessLogic;
+using VSM.Entities;
 
 namespace JITE.CIS.DevFx.Security
 {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Data ;
 using System.Data .SqlClient ;
 using JITE.CIS.Framework.DBProviders;
-namespace AYJZ.DevFx.SysManage
+namespace VSM.DevFx.SysManage
 {
     public class UserDao
     {

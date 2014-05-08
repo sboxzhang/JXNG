@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using System.Text;
 
-namespace AYJZ.DevFx.SysManage
+namespace VSM.DevFx.SysManage
 {
     public class RoleMoudle
     {

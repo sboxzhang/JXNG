@@ -2,7 +2,7 @@
 
 using System;
 using System.Web;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 using System.Collections.Generic;
 using System.Text;
 using System.Collections;

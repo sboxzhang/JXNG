@@ -1,6 +1,6 @@
 using System;
 using System.Web;
-namespace AYJZ.DataAccess
+namespace VSM.DataAccess
 {
 	sealed class DataCache
     {

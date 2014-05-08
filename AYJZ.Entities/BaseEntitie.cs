@@ -1,5 +1,5 @@
 ﻿using System;
-namespace AYJZ.Entities
+namespace VSM.Entities
 {
     public class BaseEntitie
     {

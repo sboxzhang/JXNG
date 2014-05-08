@@ -4,17 +4,17 @@ using System.Reflection;
 using System.Collections.Generic; 
 using System.Data;
 using MySql.Data.MySqlClient;
-using AYJZ.Entities;
+using VSM.Entities;
 using System.Data.Common;
 using JITE.CIS.Framework.DBProviders;
-namespace AYJZ.DataAccess  
+namespace VSM.DataAccess  
 {	
 	public partial class BuScheduleDao : IDataAccess
 	{
 		const bool isDebug = true;
         private static readonly string DalSql = " Select ScheduleId,ScheduleName,CreateMan,CreateDate,UpdateMan,UpdateDate,ScheduleStatus,ScheduleKind,StationId,StationBossId,ExecuteDate,ApplyDate,StartAddress,BigStationId,TakeTime,AddTime,TargetAddress,NeedTime from BuSchedule Where 1=1 ";
    		     
-   		private int RunCommandWithTransatcion(AYJZ.Entities.BuSchedule ent, string vSql, IDbTransaction TRANS)
+   		private int RunCommandWithTransatcion(VSM.Entities.BuSchedule ent, string vSql, IDbTransaction TRANS)
         {
             if (null == TRANS)
             {

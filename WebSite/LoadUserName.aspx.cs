@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 using JITE.CIS.Framework.Utilities;
 using JITE.CIS.DevFx.Security;
 public partial class LoadUserName : System.Web.UI.Page

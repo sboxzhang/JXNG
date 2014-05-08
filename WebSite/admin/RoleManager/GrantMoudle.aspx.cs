@@ -4,7 +4,7 @@ using System.Text;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 public partial class admin_RoleManager_GrantMoudle : System.Web.UI.Page
 {
     Moudle _Moudle = new Moudle();

@@ -4,17 +4,17 @@ using System.Reflection;
 using System.Collections.Generic; 
 using System.Data;
 using MySql.Data.MySqlClient;
-using AYJZ.Entities;
+using VSM.Entities;
 using System.Data.Common;
 using JITE.CIS.Framework.DBProviders;
-namespace AYJZ.DataAccess  
+namespace VSM.DataAccess  
 {	
 	public partial class BuGastankInfoDao : IDataAccess
 	{
 		const bool isDebug = true;
         private static readonly string DalSql = " Select TankNumber,TankKind,TankVolume,Tank1,Tank2,Tank3 from BuGastankInfo Where 1=1 ";
    		     
-   		private int RunCommandWithTransatcion(AYJZ.Entities.BuGastankInfo ent, string vSql, IDbTransaction TRANS)
+   		private int RunCommandWithTransatcion(VSM.Entities.BuGastankInfo ent, string vSql, IDbTransaction TRANS)
         {
             if (null == TRANS)
             {

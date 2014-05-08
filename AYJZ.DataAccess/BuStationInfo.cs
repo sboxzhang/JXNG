@@ -4,17 +4,17 @@ using System.Reflection;
 using System.Collections.Generic; 
 using System.Data;
 using MySql.Data.MySqlClient;
-using AYJZ.Entities;
+using VSM.Entities;
 using System.Data.Common;
 using JITE.CIS.Framework.DBProviders;
-namespace AYJZ.DataAccess  
+namespace VSM.DataAccess  
 {	
 	public partial class BuStationInfoDao : IDataAccess
 	{
 		const bool isDebug = true;
         private static readonly string DalSql = " Select StationId,StationName,StationBoss,ProvinceId,CityId,Address from BuStationInfo Where 1=1 ";
    		     
-   		private int RunCommandWithTransatcion(AYJZ.Entities.BuStationInfo ent, string vSql, IDbTransaction TRANS)
+   		private int RunCommandWithTransatcion(VSM.Entities.BuStationInfo ent, string vSql, IDbTransaction TRANS)
         {
             if (null == TRANS)
             {

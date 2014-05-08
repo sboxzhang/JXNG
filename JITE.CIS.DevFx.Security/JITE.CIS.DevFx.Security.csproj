@@ -60,17 +60,17 @@
     <Compile Include="UserAuthorizationModule.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AYJZ.BusinessLogic\AYJZ.BusinessLogic.csproj">
+    <ProjectReference Include="..\AYJZ.BusinessLogic\VSM.BusinessLogic.csproj">
       <Project>{49E932AD-B1D6-4F02-AA89-918782EB005C}</Project>
-      <Name>AYJZ.BusinessLogic</Name>
+      <Name>VSM.BusinessLogic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AYJZ.DevFx.SysManage\AYJZ.DevFx.SysManage.csproj">
+    <ProjectReference Include="..\AYJZ.DevFx.SysManage\VSM.DevFx.SysManage.csproj">
       <Project>{38FF3F0C-500B-4148-BE54-0FFE403B2F4E}</Project>
-      <Name>AYJZ.DevFx.SysManage</Name>
+      <Name>VSM.DevFx.SysManage</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AYJZ.Entities\AYJZ.Entities.csproj">
+    <ProjectReference Include="..\AYJZ.Entities\VSM.Entities.csproj">
       <Project>{4B4D22EB-F909-4B36-8C1A-E577ADDB3830}</Project>
-      <Name>AYJZ.Entities</Name>
+      <Name>VSM.Entities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

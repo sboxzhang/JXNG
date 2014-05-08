@@ -3,13 +3,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{38FF3F0C-500B-4148-BE54-0FFE403B2F4E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AYJZ.DevFx.SysManage</RootNamespace>
-    <AssemblyName>AYJZ.DevFx.SysManage</AssemblyName>
+    <RootNamespace>VSM.DevFx.SysManage</RootNamespace>
+    <AssemblyName>VSM.DevFx.SysManage</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>

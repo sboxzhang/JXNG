@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data.Common;
 using System.Text;
 using JITE.CIS.Framework.DBProviders;
-namespace AYJZ.DevFx.SysManage
+namespace VSM.DevFx.SysManage
 {
     partial class RoleDao
     {

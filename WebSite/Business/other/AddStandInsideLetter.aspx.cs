@@ -10,10 +10,10 @@ using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Xml.Linq;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 using System.Collections.Generic;
-using AYJZ.Entities;
-using AYJZ.BusinessLogic;
+using VSM.Entities;
+using VSM.BusinessLogic;
 using JITE.CIS.DevFx.Security;
 
 public partial class business_other_AddStandInsideLetter : System.Web.UI.Page

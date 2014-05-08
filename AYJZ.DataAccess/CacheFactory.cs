@@ -1,6 +1,6 @@
 using System;
 using System.Reflection;
-namespace AYJZ.DataAccess
+namespace VSM.DataAccess
 {
 	public class CacheFactory
     {

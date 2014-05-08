@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using JITE.CIS.DevFx.Security;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 using JITE.CIS.Framework.Utilities;
 using System.Text;
 

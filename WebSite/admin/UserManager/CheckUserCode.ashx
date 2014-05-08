@@ -2,7 +2,7 @@
 
 using System;
 using System.Web;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 public class CheckUserCode : IHttpHandler {
    User _User = new User();
     public void ProcessRequest (HttpContext context) {

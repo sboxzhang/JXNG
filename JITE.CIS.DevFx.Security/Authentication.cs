@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Web;
 using System.Web.Security;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 using JITE.CIS.Framework.Utilities;
 namespace JITE.CIS.DevFx.Security
 {

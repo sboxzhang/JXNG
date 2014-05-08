@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using AYJZ.BusinessLogic;
+using VSM.BusinessLogic;
 using System.Data;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 
 public partial class business_other_SystemLog : System.Web.UI.Page
 {

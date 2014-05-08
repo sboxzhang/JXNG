@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 public partial class admin_Postmanager_CreatePost : System.Web.UI.Page
 {
     Post _Post = new Post();

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using AYJZ.DataAccess;
-using AYJZ.Entities;
-namespace AYJZ.BusinessLogic
+using VSM.DataAccess;
+using VSM.Entities;
+namespace VSM.BusinessLogic
 {
 	 	//BuGastankRepair
 		public class BuGastankRepairLogic

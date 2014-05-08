@@ -8,8 +8,8 @@
     <ProjectGuid>{151531CC-8DC7-4515-99BC-73AD254570C8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AYJZ.DataAccess</RootNamespace>
-    <AssemblyName>AYJZ.DataAccess</AssemblyName>
+    <RootNamespace>VSM.DataAccess</RootNamespace>
+    <AssemblyName>VSM.DataAccess</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -85,9 +85,9 @@
     <Compile Include="TranAction.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AYJZ.Entities\AYJZ.Entities.csproj">
+    <ProjectReference Include="..\AYJZ.Entities\VSM.Entities.csproj">
       <Project>{4B4D22EB-F909-4B36-8C1A-E577ADDB3830}</Project>
-      <Name>AYJZ.Entities</Name>
+      <Name>VSM.Entities</Name>
     </ProjectReference>
     <ProjectReference Include="..\JITE.CIS.Framework.DBProviders\JITE.CIS.Framework.DBProviders.csproj">
       <Project>{C396424B-6283-4628-89AC-0CF3F56609E7}</Project>

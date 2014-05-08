@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace AYJZ.DataAccess
+namespace VSM.DataAccess
 {
     /// <summary>
     /// 自定义数据转换

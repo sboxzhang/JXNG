@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using AYJZ.DevFx.SysManage;
+using VSM.DevFx.SysManage;
 public partial class admin_RoleManager_GrantPower : System.Web.UI.Page
 {
     RoleMoudle _RoleMoudle = new RoleMoudle();
