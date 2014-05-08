@@ -71,11 +71,11 @@
     <Compile Include="syslogLogic.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AYJZ.DataAccess\VSM.DataAccess.csproj">
+    <ProjectReference Include="..\VSM.DataAccess\VSM.DataAccess.csproj">
       <Project>{151531CC-8DC7-4515-99BC-73AD254570C8}</Project>
       <Name>VSM.DataAccess</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AYJZ.Entities\VSM.Entities.csproj">
+    <ProjectReference Include="..\VSM.Entities\VSM.Entities.csproj">
       <Project>{4B4D22EB-F909-4B36-8C1A-E577ADDB3830}</Project>
       <Name>VSM.Entities</Name>
     </ProjectReference>

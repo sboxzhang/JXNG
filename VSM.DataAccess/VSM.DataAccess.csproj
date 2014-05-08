@@ -85,7 +85,7 @@
     <Compile Include="TranAction.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AYJZ.Entities\VSM.Entities.csproj">
+    <ProjectReference Include="..\VSM.Entities\VSM.Entities.csproj">
       <Project>{4B4D22EB-F909-4B36-8C1A-E577ADDB3830}</Project>
       <Name>VSM.Entities</Name>
     </ProjectReference>
