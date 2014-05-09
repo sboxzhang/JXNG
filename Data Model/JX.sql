@@ -10,7 +10,7 @@ SET FOREIGN_KEY_CHECKS=0;
 --  Create Tables 
 CREATE TABLE BuAddress
 (
-	Id INT auto_increment NOT NULL,
+	Id INT AUTO_INCREMENT NOT NULL,
 	AddressName LONGTEXT,
 	PRIMARY KEY (Id),
 	UNIQUE UQ_address_id(Id)
